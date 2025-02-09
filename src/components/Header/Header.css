@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+}
+.container, .tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > div{
+    margin: 0.5rem 2rem 0.5rem;
+}
+
+.tabs {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tab {
+    margin: 0.5rem 2rem 0.5rem;
+}
