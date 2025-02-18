@@ -1,4 +1,5 @@
 import Header from '../../components/Header/Header.jsx';
+import Footer from "../../components/Footer/Footer.jsx";
 
 function ProductPage() {
     const tabList = [
@@ -9,6 +10,7 @@ function ProductPage() {
     return (
         <>
             <Header tabs={tabList}/>
+            <Footer/>
         </>
     );
 }

@@ -1,5 +1,11 @@
 .header{
     width: 100%;
+    border-bottom-style: solid;
+}
+
+.article {
+    display: flex;
+    flex-grow: 1;
 }
 .container, .tabs {
     display: flex;

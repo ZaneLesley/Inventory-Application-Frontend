@@ -1,4 +1,6 @@
+import './LandingPage.css'
 import Header from '../../components/Header/Header.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 function LandingPage() {
     const tabList = [
@@ -9,6 +11,8 @@ function LandingPage() {
     return (
         <>
             <Header tabs={tabList}/>
+            <div className="article">Stuff</div>
+            <Footer />
         </>
     );
 }
